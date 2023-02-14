@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/pt-root-ui" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header__bg">
+        <div class="header">
+            <a class="hoster" href="/"><img src="./img_svg/hoster.svg" alt="logo" class="logo"></a>
+            <ul class="nav">
+                <li class="header__nav"><a class="header__link" href="#">Main page</a></li>
+                <li class="header__nav"><a class="header__link" href="#">Staff</a></li>
+                <li class="header__nav"><a class="header__link" href="#">Statistics</a></li>
+                <li class="header__nav"><a class="header__link" href="#">Applications</a></li>
+                <li class="header__nav"><a class="header__link" href="#">Chats</a></li>
+                <li class="header__nav"><a class="header__link" href="#">Customers</a></li>
+                <li class="header__nav"><a class="header__link" href="#">Settings</a></li>
+            </ul>
+            <div class="nav__room">
+                <div class="header__img"></div>
+                <a class="header__room" href="#">Ryan Reid</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="main__title">
+                <d class="table_title">Applications</d>
+                <button class="update"><a href="#">Update</a></button>
+            </div>
+
+            <table>
+                <thead class="thead__table">
+                    <tr>
+                        <th class="search">
+                            <label for="app">№ Application</label>
+                            <input type="text" id="app">
+                        </th>
+                        <th class="search">
+                            <label for="title">Title</label>
+                            <input type="text" id="title" >
+                        </th>
+                        <th class="search">
+                            <label for="Date">Date</label>
+                            <input type="text" id="Date">
+                        </th>
+                        <th class="search">
+                            <label for="Contractor">Contractor</label>
+                            <input type="text" id="Contractor">
+                        </th>
+                        <th class="search">
+                            <label for="Priority">Priority</label>
+                            <input type="text" id="Priority">
+                        </th>
+                        <th class="search">
+                            <label for="Status">Status</label>
+                            <input type="text" id="Status">
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="queue">
+                        <td>1</td>
+                        <td>Calls are not being received</td>
+                        <td>10.12.2013</td>
+                        <td>William Jensen</td>
+                        <td>1</td>
+                        <td><span class="yellow__span">In the queue</span>...</td>
+                    </tr>
+                    <tr class="work">
+                        <td>2</td>
+                        <td>Problem with the Internet</td>
+                        <td>10.12.2013</td>
+                        <td>Charles Gardner</td>
+                        <td>2</td>
+                        <td><span class="blue__span">In the work</span>...</td>
+                    </tr>
+                    <tr class="done">
+                        <td>3</td>
+                        <td>The alarm system in the house does not work</td>
+                        <td>10.12.2013</td>
+                        <td>Kevin Hayes</td>
+                        <td>3</td>
+                        <td><span class="green__span">Done</span>...</td>
+                    </tr>
+                    <tr class="rejected">
+                        <td>4</td>
+                        <td>Calls are not being received</td>
+                        <td>10.12.2013</td>
+                        <td>Nicholas Keller</td>
+                        <td>1</td>
+                        <td><span class="red__span">Rejected</span>...</td>
+                    </tr>
+                    <tr class="work">
+                        <td>5</td>
+                        <td>Problem with the Internet</td>
+                        <td>10.12.2013</td>
+                        <td>Jason Burns</td>
+                        <td>1</td>
+                        <td><span class="blue__span">In the work</span>...</td>
+                    </tr>
+                    <tr class="queue">
+                        <td>6</td>
+                        <td>Calls are not being received</td>
+                        <td>10.12.2013</td>
+                        <td>John Wright</td>
+                        <td>2</td>
+                        <td><span class="yellow__span">In the queue</span>...</td>
+                    </tr>
+                    <tr class="done">
+                        <td>7</td>
+                        <td>No network</td>
+                        <td>10.12.2013</td>
+                        <td>Mark Lane</td>
+                        <td>5</td>
+                        <td><span class="green__span">Done</span>...</td>
+                    </tr>
+                    <tr class="rejected">
+                        <td>8</td>
+                        <td>Problem with the Internet</td>
+                        <td>10.12.2013</td>
+                        <td>Louis Byrd</td>
+                        <td>2</td>
+                        <td><span class="red__span">Rejected</span>...</td>
+                    </tr>
+                    <tr class="done">
+                        <td>9</td>
+                        <td>Calls are not being received</td>
+                        <td>10.12.2013</td>
+                        <td>Karen Blake</td>
+                        <td>3</td>
+                        <td><span class="green__span">Done</span>...</td>
+                    </tr>
+                    <tr class="rejected">
+                        <td>10</td>
+                        <td>Problem with the Internet</td>
+                        <td>10.12.2013</td>
+                        <td>Frank Mitchell</td>
+                        <td>4</td>
+                        <td><span class="red__span">Rejected</span>...</td>
+                    </tr>
+                    <tr class="work">
+                        <td>11</td>
+                        <td>Calls are not being received</td>
+                        <td>10.12.2013</td>
+                        <td>Donald Willis</td>
+                        <td>1</td>
+                        <td><span class="blue__span">In the work</span>...</td>
+                    </tr>
+                    <tr class="queue">
+                        <td>12</td>
+                        <td>No network</td>
+                        <td>10.12.2013</td>
+                        <td>Rachel Ferguson</td>
+                        <td>2</td>
+                        <td><span class="yellow__span">In the queue</span>...</td>
+                    </tr>
+                    <tr class="done">
+                        <td>13</td>
+                        <td>Problem with the Internet</td>
+                        <td>10.12.2013</td>
+                        <td>Ruth Kelly</td>
+                        <td>2</td>
+                        <td><span class="green__span">Done</span>...</td>
+                    </tr>
+                    <tr class="rejected">
+                        <td>14</td>
+                        <td>No network</td>
+                        <td>10.12.2013</td>
+                        <td>Richard Watson</td>
+                        <td>3</td>
+                        <td><span class="red__span">Rejected</span>...</td>
+                    </tr>
+                    <tr class="queue">
+                        <td>15</td>
+                        <td>No network</td>
+                        <td>10.12.2013</td>
+                        <td>Brandon Holmes</td>
+                        <td>4</td>
+                        <td><span class="yellow__span">In the queue</span>...</td>
+                    </tr>
+                    <tr class="queue">
+                        <td>16</td>
+                        <td>No network</td>
+                        <td>10.12.2013</td>
+                        <td>Mary Atkins</td>
+                        <td>4</td>
+                        <td><span class="yellow__span">In the queue</span>...</td>
+                    </tr>
+                    <tr class="rejected">
+                        <td>17</td>
+                        <td>Problem with the Internet</td>
+                        <td>10.12.2013</td>
+                        <td>Melissa Norman</td>
+                        <td>2</td>
+                        <td><span class="red__span">Rejected</span>...</td>
+                    </tr>
+                    <tr class="done">
+                        <td>18</td>
+                        <td>Calls are not being received</td>
+                        <td>10.12.2013</td>
+                        <td>Frank Mitchell</td>
+                        <td>4</td>
+                        <td><span class="green__span">Done</span>...</td>
+                    </tr>
+                    <tr class="work">
+                        <td>19</td>
+                        <td>Problem with the Internet</td>
+                        <td>10.12.2013</td>
+                        <td>Christopher Davis</td>
+                        <td>5</td>
+                        <td><span class="blue__span">In the work</span>...</td>
+                    </tr>
+                    <tr class="work">
+                        <td>20</td>
+                        <td>No network</td>
+                        <td>10.12.2013</td>
+                        <td>Pedro Stewart</td>
+                        <td>5</td>
+                        <td><span class="blue__span">In the work</span>...</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr class="tfoot__block">
+                        <th colspan="5" class="btn__tfoot">
+                            <button class="next__table">1</button>
+                            <button class="next__table">2</button>
+                            <button class="next__table">3</button>
+                            <button class="next__table">4</button>
+                        </th>
+                        <th class="page__tfoot">
+                            <label for="page">Output by</label>
+                            <input type="number" name="page" id="page" value="20" min="1" max="20" />
+                        </th>
+                    </tr>
+                </tfoot>
+            </table>
+            <div  class="span__img"><img src="./img_svg/page_table.svg" alt="..."></div>
+        </div>
+    </main>
+</body>
+</html>
