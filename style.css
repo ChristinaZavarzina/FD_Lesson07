@@ -359,9 +359,6 @@ tr>td:nth-child(6){
     background-color: var(--white);
     box-shadow: -2px -1px 20px rgba(74, 74, 74, 0.1);
     border-radius: 16px;
-    position: absolute;
-    right: 50px;
-    top: 740px;
 }
 
 .card__list{
@@ -400,6 +397,12 @@ tr>td:nth-child(6){
     content: url(./img_svg/delete.svg);
     display: inline-block;
     padding-right: 0.75rem;
+}
+
+table:hover+.tablo{
+    position: absolute;
+    right: 50px;
+    top: 740px;
 }
 
 
